@@ -2,6 +2,6 @@
 
 set -euo pipefail
 
-mkdir -p build
-cd app
-scalac *.scala -d ../build/Main.jar
+mkdir -p target
+
+scalac src/*.scala -d target/Main.jar
