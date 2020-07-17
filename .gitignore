@@ -263,3 +263,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux,scala,intellij+all,vim,emacs,visualstudiocode,bloop,sbt
+
+# Ignore Dockerfile as a safeguard so you don't commit your custom Dockerfile that is different
+# from the submission system's one.
+Dockerfile
